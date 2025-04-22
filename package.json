@@ -1,5 +1,5 @@
 {
-  "name": "my-note",
+  "name": "web-noted",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,8 @@
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
-    "clean": "rimraf node_modules/.vite"
+    "clean": "rimraf node_modules/.vite",
     "test": "echo \"No tests yet\" && exit 0"
-
-    
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
